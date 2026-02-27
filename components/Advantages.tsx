@@ -57,7 +57,7 @@ export default function Advantages() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="group rounded-2xl border border-gray-200 p-7 hover:shadow-lg hover:border-blue/20 transition-all"
+              className="rounded-2xl border border-gray-200 p-7 hover:shadow-lg hover:border-blue/20 transition-all"
             >
               <div className="w-12 h-12 rounded-xl bg-blue-muted flex items-center justify-center mb-5">
                 <a.icon size={24} className="text-blue" />

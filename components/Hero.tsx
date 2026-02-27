@@ -6,7 +6,7 @@ import CloudIllustration from "@/components/CloudIllustration";
 
 export default function Hero() {
   return (
-    <section className="pt-28 lg:pt-36 pb-20 lg:pb-28 px-5 lg:px-8 bg-gradient-to-b from-white via-white to-blue-light/40">
+    <section className="pt-28 lg:pt-36 pb-20 lg:pb-28 px-5 lg:px-8 bg-gradient-to-b from-white via-white to-blue-light/40 overflow-x-clip">
       <div className="mx-auto max-w-7xl grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -62,7 +62,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="relative h-72 sm:h-80 lg:h-96 overflow-hidden"
+          className="relative h-72 sm:h-80 lg:h-96"
         >
           <CloudIllustration />
         </motion.div>

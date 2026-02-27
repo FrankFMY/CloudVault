@@ -41,13 +41,3 @@ html {
     transform: translateY(-8px) rotate(2deg);
   }
 }
-
-@keyframes pulse-glow {
-  0%,
-  100% {
-    opacity: 0.4;
-  }
-  50% {
-    opacity: 0.7;
-  }
-}
